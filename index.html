@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Create Viral Memes in Seconds - Free Meme Generator | MemeNoise</title>
+    <meta name="description" content="Join 50,000+ creators making viral memes! Free professional meme generator with trending templates. No login required. Create, customize & download instantly! 🔥">
+    <meta name="keywords" content="meme generator, create memes, viral memes, meme maker, free meme creator, trending memes, meme templates, viral content">
+    
+    <!-- Enhanced Open Graph meta tags for Social Sharing -->
+    <meta property="og:title" content="🚀 Create Viral Memes in Seconds - Free Professional Tool" />
+    <meta property="og:description" content="Join 50,000+ creators! ✨ Free meme generator with trending templates • No login required • Professional quality downloads • Create viral content instantly!" />
+    <meta property="og:image" content="https://iili.io/FBVCAnj.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Friends creating viral memes together using MemeNoise - Free professional meme generator" />
+    <meta property="og:url" content="https://memenoise.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="MemeNoise - Free Meme Generator" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="🚀 Create Viral Memes in Seconds - Free Tool" />
+    <meta name="twitter:description" content="Join 50,000+ creators! Free meme generator with trending templates. No login required. Create viral content instantly! ✨🔥" />
+    <meta name="twitter:image" content="https://iili.io/FBVCAnj.png" />
+    <meta name="twitter:image:alt" content="Friends creating viral memes using MemeNoise free meme generator" />
+    <meta name="twitter:creator" content="@memenoise" />
+    <meta name="twitter:site" content="@memenoise" />
+    
+    <!-- Additional SEO meta tags -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="MemeNoise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="theme-color" content="#00ffff" />
+    <meta name="msapplication-TileColor" content="#00ffff" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://memenoise.netlify.app" />
+    
+    <!-- Additional social media meta tags -->
+    <meta property="fb:app_id" content="YOUR_FACEBOOK_APP_ID" />
+    <meta name="pinterest-rich-pin" content="true" />
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "MemeNoise",
+      "description": "Free professional meme generator with trending templates. Create viral memes in seconds with no login required.",
+      "url": "https://memenoise.netlify.app",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "MemeNoise"
+      },
+      "image": "https://iili.io/FBVCAnj.png",
+      "screenshot": "https://iili.io/FBVCAnj.png"
+    }
+    </script>
+    
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload Impact font for faster loading with HTTPS absolute URLs -->
+    <link rel="preload" href="https://memenoise.netlify.app/fonts/impact-font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://memenoise.netlify.app/fonts/impact-font.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="https://memenoise.netlify.app/fonts/impact-font.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" href="https://memenoise.netlify.app/fonts/impact-font.eot" as="font" type="font/eot" crossorigin="anonymous">
+    <link rel="preload" href="https://memenoise.netlify.app/fonts/impact-font.svg" as="font" type="image/svg+xml" crossorigin="anonymous">
+
+    <style>
+        /* Modern CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Root Variables for Futuristic Theme */
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --dark-gradient: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 100%);
+            --neon-cyan: #00ffff;
+            --neon-pink: #ff0080;
+            --neon-purple: #8000ff;
+            --glass-bg: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Animated Background */
+        body {
+            font-family: 'Exo 2', sans-serif;
+            background: var(--dark-gradient);
+            color: white;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Floating Particles Animation */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+            z-index: -1;
+            animation: particleFloat 20s ease-in-out infinite;
+        }
+
+        @keyframes particleFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-30px) rotate(120deg); }
+            66% { transform: translateY(20px) rotate(240deg); }
+        }
+
+        /* Glass Morphism Header */
+        header {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 30px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        header .logo {
+            width: 180px;
+            height: auto;
+            filter: drop-shadow(0 0 20px var(--neon-cyan));
+            animation: logoGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes logoGlow {
+            from { filter: drop-shadow(0 0 20px var(--neon-cyan)); }
+            to { filter: drop-shadow(0 0 40px var(--neon-pink)); }
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* Futuristic Headline */
+        main h1 {
+            font-family: 'Orbitron', monospace;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 900;
+            background: linear-gradient(45deg, var(--neon-cyan), var(--neon-pink), var(--neon-purple));
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 4s ease-in-out infinite, textGlow 2s ease-in-out infinite alternate;
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes textGlow {
+            from { text-shadow: 0 0 20px rgba(0, 255, 255, 0.5); }
+            to { text-shadow: 0 0 40px rgba(255, 0, 128, 0.8); }
+        }
+
+        /* Glass Cards */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: all 0.5s;
+        }
+
+        .glass-card:hover::before {
+            left: 100%;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border-color: var(--neon-cyan);
+        }
+
+        /* Intro Paragraph */
+        .intro-paragraph {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            line-height: 1.6;
+            text-align: center;
+            margin: 30px 0;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Neon Buttons */
+        .neon-button {
+            background: transparent;
+            border: 2px solid var(--neon-cyan);
+            color: var(--neon-cyan);
+            font-family: 'Orbitron', monospace;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 15px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+
+        .neon-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--accent-gradient);
+            transition: all 0.3s ease;
+            z-index: -1;
+        }
+
+        .neon-button:hover {
+            color: white;
+            border-color: var(--neon-pink);
+            box-shadow: 0 0 40px rgba(255, 0, 128, 0.6);
+            transform: translateY(-3px);
+        }
+
+        .neon-button:hover::before {
+            left: 0;
+        }
+
+        /* Pulse Animation for Main CTA */
+        .pulse-button {
+            animation: neonPulse 2s infinite;
+        }
+
+        @keyframes neonPulse {
+            0% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 0.4); }
+            100% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); }
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            margin: 60px 0;
+        }
+
+        .how-it-works h2 {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            background: var(--secondary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .step {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .step::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, var(--neon-cyan), transparent);
+            animation: borderRotate 4s linear infinite;
+            z-index: -1;
+        }
+
+        .step::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            right: 2px;
+            bottom: 2px;
+            background: var(--dark-gradient);
+            border-radius: 18px;
+            z-index: -1;
+        }
+
+        @keyframes borderRotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .step:hover {
+            transform: translateY(-10px) scale(1.02);
+        }
+
+        .step img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            filter: brightness(1.1) contrast(1.1);
+            transition: all 0.3s ease;
+        }
+
+        .step:hover img {
+            filter: brightness(1.3) contrast(1.2) saturate(1.2);
+        }
+
+        .step h3 {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--neon-cyan);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .step p {
+            font-family: 'Exo 2', sans-serif;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.5;
+        }
+
+        /* Image Gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 40px 0;
+            padding: 30px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            filter: grayscale(0.3);
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1) rotate(5deg);
+            filter: grayscale(0) brightness(1.2);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.4);
+        }
+
+        /* Search Container */
+        .search-container {
+            display: flex;
+            gap: 15px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #search-bar {
+            flex: 1;
+            min-width: 300px;
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 2px solid var(--glass-border);
+            border-radius: 50px;
+            color: white;
+            font-family: 'Exo 2', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        #search-bar:focus {
+            outline: none;
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+        }
+
+        #search-bar::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        /* Meme Editor - Side by Side Layout */
+        .meme-editor {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 30px;
+            padding: 40px;
+            margin: 50px 0;
+        }
+
+        .meme-editor-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .canvas-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .meme-editor canvas {
+            border: 3px solid var(--neon-cyan);
+            border-radius: 20px;
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+            max-width: 100%;
+            width: 400px;
+            height: 400px;
+            background: #000;
+        }
+
+        .controls-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Reduced from 20px */
+        }
+
+        .controls-section h3 {
+            font-family: 'Orbitron', monospace;
+            color: var(--neon-cyan);
+            font-size: 1.3rem; /* Reduced from 1.5rem */
+            text-align: center;
+            margin-bottom: 15px; /* Reduced from 20px */
+        }
+
+        /* Controls */
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Reduced from 20px */
+        }
+
+        .controls input[type="file"],
+        .controls input[type="text"],
+        .controls input[type="range"] {
+            width: 100%;
+            padding: 12px 16px; /* Reduced from 15px 20px */
+            font-size: 0.9rem; /* Reduced from 1rem */
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 2px solid var(--glass-border);
+            border-radius: 15px;
+            color: white;
+            font-family: 'Exo 2', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .controls input:focus {
+            outline: none;
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+        }
+
+        .controls input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px; /* Reduced from 10px */
+        }
+
+        .control-group label {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1rem; /* Reduced from 1.1rem */
+            color: var(--neon-cyan);
+            font-weight: 600;
+        }
+
+        /* Radio Container */
+        .radio-container {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 15px;
+            padding: 15px; /* Reduced from 20px */
+        }
+
+        .radio-container div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 8px 0; /* Reduced from 10px */
+            gap: 10px; /* Reduced from 15px */
+        }
+
+        .radio-container input {
+            transform: scale(1.1); /* Reduced from 1.2 */
+        }
+
+        .radio-container label {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 0.9rem; /* Reduced from 1rem */
+            font-weight: 600;
+            flex: 1;
+        }
+
+        /* Download Button */
+        #downloadButton {
+            background: var(--secondary-gradient);
+            border: none;
+            color: white;
+            font-family: 'Orbitron', monospace;
+            font-size: 1rem; /* Reduced from 1.2rem */
+            font-weight: 600;
+            padding: 15px 25px; /* Reduced from 20px 30px */
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 0, 128, 0.3);
+            width: 100%;
+            margin-top: 15px; /* Reduced from 20px */
+        }
+
+        #downloadButton:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(255, 0, 128, 0.5);
+        }
+
+        /* Social Share Section */
+        .social-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+        }
+
+        /* Responsive Design for Mobile */
+        @media (max-width: 968px) {
+            .meme-editor-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .meme-editor canvas {
+                width: 300px;
+                height: 300px;
+            }
+
+            .controls-section {
+                order: 1;
+            }
+
+            .canvas-section {
+                order: 2;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .meme-editor {
+                padding: 20px;
+            }
+
+            .meme-editor canvas {
+                width: 250px;
+                height: 250px;
+            }
+
+            .controls input {
+                padding: 12px 16px;
+                font-size: 0.9rem;
+            }
+
+            #downloadButton {
+                font-size: 1rem;
+                padding: 15px 25px;
+            }
+        }
+
+        /* Blinking Highlight */
+        .blinking {
+            animation: neonBlink 1.5s ease-in-out infinite;
+        }
+
+        @keyframes neonBlink {
+            0%, 100% { opacity: 1; box-shadow: 0 0 20px rgba(9, 193, 10, 0.5); }
+            50% { opacity: 0.7; box-shadow: 0 0 40px rgba(9, 193, 10, 0.8); }
+        }
+
+        .highlight {
+            background: linear-gradient(45deg, #09c10a, #00ff00);
+            padding: 15px 25px;
+            border-radius: 50px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        .highlight a {
+            color: white;
+            text-decoration: none;
+            font-family: 'Orbitron', monospace;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-gradient);
+            border-top: 1px solid var(--glass-border);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer p {
+            margin: 15px 0;
+            font-family: 'Exo 2', sans-serif;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        footer a {
+            color: var(--neon-cyan);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: var(--neon-pink);
+            text-shadow: 0 0 10px currentColor;
+        }
+
+        /* Quick Template Buttons */
+        .quick-template-btn {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            border: 2px solid var(--neon-cyan);
+            color: var(--neon-cyan);
+            font-family: 'Exo 2', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 8px 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            white-space: nowrap;
+        }
+
+        .quick-template-btn:hover {
+            background: var(--neon-cyan);
+            color: black;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 255, 255, 0.4);
+        }
+
+        /* Responsive template grid */
+        @media (max-width: 768px) {
+            .quick-template-btn {
+                font-size: 0.7rem;
+                padding: 6px 8px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            /* Stack templates in 2 columns on small mobile */
+            div[style*="grid-template-columns: repeat(4, 1fr)"] {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 8px !important;
+            }
+            
+            .quick-template-btn {
+                font-size: 0.65rem;
+                padding: 8px 6px;
+            }
+        }
+
+        /* Social Share Icons - Updated */
+        .social-share {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .social-share a img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            filter: brightness(1.2);
+        }
+
+        .social-share a:hover img {
+            transform: scale(1.2) rotate(360deg);
+            filter: brightness(1.5) saturate(1.5);
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main h1 {
+                font-size: 2rem;
+            }
+
+            .glass-card {
+                padding: 20px;
+                margin: 20px 0;
+            }
+
+            .steps {
+                grid-template-columns: 1fr;
+            }
+
+            .search-container {
+                flex-direction: column;
+            }
+
+            #search-bar {
+                min-width: 100%;
+            }
+
+            .controls input {
+                max-width: 100%;
+            }
+        }
+
+        /* Scrollbar Styling */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--dark-gradient);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--accent-gradient);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--neon-cyan);
+        }
+
+        /* Add Impact font using @font-face with optimization for mobile and broader support */
+        @font-face {
+            font-family: 'Impact';
+            src: url('https://memenoise.netlify.app/fonts/impact-font.woff2') format('woff2'),
+                 url('https://memenoise.netlify.app/fonts/impact-font.woff') format('woff'),
+                 url('https://memenoise.netlify.app/fonts/impact-font.ttf') format('truetype'),
+                 url('https://memenoise.netlify.app/fonts/impact-font.eot') format('eot'),
+                 url('https://memenoise.netlify.app/fonts/impact-font.svg#Impact') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /* Loading Animation */
+        .loading-wave {
+            display: inline-block;
+            animation: wave 1.5s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 60%, 100% { transform: initial; }
+            30% { transform: translateY(-15px); }
+        }
+
+        /* Floating Elements */
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+    <!-- Pixel Code for https://marketersboost.io/appg/ -->
+    <script defer src="https://marketersboost.io/appg/pixel/oh33needhnsaq716as51r6xhgkn72bw6"></script>
+    <!-- END Pixel Code -->
+</head>
+<body>
+    <header>
+        <img src="https://d1yei2z3i6k35z.cloudfront.net/6499625/679e1508b0a57_MemeNoise_Square_3_Logo-removebg-preview.png" alt="MEMENOISE Logo" class="logo floating" width="150">
+    </header>
+    
+    <main>
+        <h1>🚀 Create Viral Memes That Get 10x More Engagement! <span class="loading-wave">✨</span></h1>
+
+        <div class="glass-card">
+            <p class="intro-paragraph">
+                Step into the future of meme creation! <span class="loading-wave">🎨</span> Whether you're a content creator, brand, or meme enthusiast, MemeNoise transforms your ideas into viral sensations with cutting-edge technology and sleek design! <span class="loading-wave">🚀</span>
+            </p>
+
+            <div style="text-align: center; margin: 40px 0;">
+                <a href="https://llclick.com/memenoise-post-generator/" target="_blank" rel="noopener" class="neon-button pulse-button">
+                    Generate Meme Ideas Now
+                </a>
+            </div>
+
+            <p style="text-align: center; font-family: 'Rajdhani', sans-serif; font-size: 1.2rem; margin-top: 30px;">
+                After generating your meme ideas, follow the futuristic process below! <span class="loading-wave">📝</span><span class="loading-wave">💡</span>
+            </p>
+        </div>
+
+        <div class="how-it-works">
+            <h2>🔮 HOW MEMENOISE WORKS</h2>
+            <div class="steps">
+                <div class="step floating">
+                    <img src="https://i.imgur.com/PMrVbAI.png" alt="Step 1: Choose a Picture">
+                    <h3>⚡ STEP 1: CHOOSE YOUR CANVAS</h3>
+                    <p>Select from our quantum-curated image library or upload your own masterpiece! <span class="loading-wave">📸</span></p>
+                </div>
+                <div class="step floating" style="animation-delay: 0.5s;">
+                    <img src="https://i.imgur.com/UiG89g5.png" alt="Step 2: Add Text">
+                    <h3>🎯 STEP 2: CRAFT YOUR MESSAGE</h3>
+                    <p>Deploy your wit with our advanced text engine - resize, style, and perfect your viral message! <span class="loading-wave">✍️</span></p>
+                </div>
+                <div class="step floating" style="animation-delay: 1s;">
+                    <img src="https://i.imgur.com/HeEUuPE.png" alt="Step 3: Share the Fun">
+                    <h3>🌟 STEP 3: LAUNCH TO FAME</h3>
+                    <p>Download your creation and watch it spread across the digital universe! <span class="loading-wave">🚀</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <p style="text-align: center; font-family: 'Rajdhani', sans-serif; font-size: 1.2rem; color: var(--neon-pink); margin-bottom: 20px;">
+                <em>🔍 Explore our quantum image database from Pixabay & Pexels, or choose from our viral collection:</em>
+            </p>
+            
+            <div style="background: rgba(255, 0, 128, 0.1); border: 1px solid var(--neon-pink); padding: 20px; border-radius: 15px; margin: 20px 0;">
+                <p style="font-family: 'Exo 2', sans-serif; font-size: 1.1rem; line-height: 1.6; color: var(--neon-cyan); text-align: center;">
+                    <strong>⚡ Pro Tip:</strong> Some external images may have CORS restrictions. If download doesn't work after clicking an image, please:<br>
+                    <strong style="color: var(--neon-pink);">1. Right-click the image → "Save image as..."</strong><br>
+                    <strong style="color: var(--neon-pink);">2. Then use "Choose File" button to upload it</strong><br>
+                    This ensures your meme downloads properly! 📥✨
+                </p>
+            </div>
+            
+            <div style="background: rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 15px; margin: 20px 0;">
+                <p style="font-family: 'Exo 2', sans-serif; font-size: 1.1rem; line-height: 1.6;">
+                    <strong style="color: var(--neon-cyan);">📱 Mobile:</strong> Touch and hold the desired image, then select "Download." <br>
+                    <strong style="color: var(--neon-cyan);">💻 Desktop:</strong> Right-click on the image and choose "Save image as...". <br>
+                    <strong style="color: var(--neon-pink);">⬆️ Upload:</strong> Once downloaded, upload to our meme creator below. <br>
+                    <strong style="color: var(--neon-purple);">📏 Pro Tip:</strong> Use 1:1 aspect ratio (1080x1080) for optimal viral potential!
+                </p>
+            </div>
+        </div>
+
+        <div class="image-gallery">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczPIm50N1gwN05-8aJAUsriDkJAhdj-k-xuvXtmTJpaO3KZA6UWjrLWtMlYKwdfQwDMccaYqPk-Pd7iBtlFBZENMApiisikSyWeiud9432oARBb73JTzT4dQjBU4IMuq1kK9JOoVBkbSEXDip4v5LL0=w923-h923-s-no-gm?authuser=0" alt="Sample Image 1" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/IowuH2u.png" alt="Sample Image 2" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/pdxFnaj.png" alt="Sample Image 3" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/S92VliZ.png" alt="Sample Image 4" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/vWZtzpy.png" alt="Sample Image 5" onclick="setImage(this.src)">
+            <!-- Additional Images -->
+            <img src="https://i.imgur.com/5sabbbW.png" alt="Sample Image 6" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/hjg6Noe.jpeg" alt="Sample Image 7" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/DMbAvmG.png" alt="" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/hWarMO9.png" alt="" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/1Vzx2ej.png" alt="Sample Image 8" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/RZLO3Wg.png" alt="Sample Image 9" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/Tv8QqyB.png" alt="Sample Image 10" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/8KDWz1y.jpeg" alt="Sample Image 11" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/84waWLE.jpeg" alt="Sample Image 12" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/nlWYkaR.jpeg" alt="Sample Image 13" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/R0Ulwyb.jpeg" alt="Sample Image 14" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/pBPitRq.jpeg" alt="Sample Image 15" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/Et6SUf8.jpeg" alt="Sample Image 16" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/Y9W2ib1.jpeg" alt="Sample Image 17" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/0P2IVc9.jpeg" alt="Sample Image 18" onclick="setImage(this.src)">
+            <img src="https://i.imgur.com/sqCWqxz.jpeg" alt="Sample Image 19" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/El%20risitas%20laughting%20rire.jpg" alt="Sample Image 20" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/salt-bae.png" alt="Sample Image 21" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Evil-Toddler.png" alt="Sample Image 22" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Thanos-Smile.png" alt="Sample Image 23" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Happy-Squirrel.png" alt="Sample Image 24" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Aaaaand-Its-Gone.png" alt="Sample Image 25" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Dwight-Schrute.png" alt="Sample Image 26" onclick="setImage(this.src)">
+            <!-- New 4 Images Added -->
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Domino-Effect.png" alt="Domino Effect" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Squid-Game.png" alt="Squid Game" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/TED.png" alt="TED Talk" onclick="setImage(this.src)">
+            <img src="https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Bart-Simpson-Peeking.png" alt="Bart Simpson Peeking" onclick="setImage(this.src)">
+        </div>
+
+        <!-- Search bar for images -->
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="🔍 Search quantum image database...">
+            <button id="search-pixabay" onclick="searchImages('pixabay')" class="neon-button">Search Pixabay</button>
+            <button id="search-pexels" onclick="searchImages('pexels')" class="neon-button">Search Pexels</button>
+        </div>
+        <div id="image-results" style="margin-top: 20px;"></div>
+        <p style="font-size: 0.9rem; color: rgba(255, 255, 255, 0.5); text-align: center; margin-top: 10px; font-family: 'Exo 2', sans-serif;">
+            Images are sourced from Pixabay and Pexels under their respective licenses. Some images may recommend attribution; please check the source for details.
+        </p>
+
+        <div class="glass-card">
+            <h2 style="font-family: 'Orbitron', monospace; color: var(--neon-cyan); text-align: center; margin-bottom: 20px; font-size: 1.8rem;">
+                🎮 MEME GENERATOR MATRIX
+            </h2>
+            
+            <!-- Quick Templates Section -->
+            <div style="background: rgba(0, 255, 255, 0.1); border: 1px solid var(--neon-cyan); border-radius: 15px; padding: 20px; margin-bottom: 20px;">
+                <h3 style="font-family: 'Rajdhani', sans-serif; color: var(--neon-cyan); text-align: center; margin-bottom: 15px;">🔥 Quick Templates - Click to Load!</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 10px;">
+                    <button onclick="loadQuickTemplate('spongebob')" class="quick-template-btn">🧽 SpongeBob</button>
+                    <button onclick="loadQuickTemplate('distracted')" class="quick-template-btn">👀 Distracted</button>
+                    <button onclick="loadQuickTemplate('stonks')" class="quick-template-btn">📈 Stonks</button>
+                    <button onclick="loadQuickTemplate('this-is-fine')" class="quick-template-btn">🔥 This is Fine</button>
+                </div>
+                <p style="font-size: 0.8rem; color: rgba(255,255,255,0.7); text-align: center; margin-top: 10px; font-family: 'Exo 2', sans-serif;">
+                    Templates load with sample text. Click to load, then customize!
+                </p>
+            </div>
+            
+            <p style="text-align: center; font-family: 'Rajdhani', sans-serif; font-size: 1.2rem; margin-bottom: 30px;">
+                Create your viral meme in seconds! Upload an image or use our templates, add your text, and download! <span class="loading-wave">🚀</span><span class="loading-wave">📸</span><span class="loading-wave">🎉</span>
+            </p>
+        </div>
+
+        <div class='meme-editor'>
+            <h2 style="font-family: 'Orbitron', monospace; color: var(--neon-cyan); text-align: center; margin-bottom: 30px; font-size: 1.8rem;">
+                🎮 MEME GENERATOR MATRIX
+            </h2>
+            
+            <div class="meme-editor-container">
+                <!-- Left Side: Canvas -->
+                <div class="canvas-section">
+                    <canvas id='memeCanvas' width='400' height='400'></canvas>
+                </div>
+                
+                <!-- Right Side: Controls -->
+                <div class="controls-section">
+                    <h3>⚡ CONTROLS</h3>
+                    
+                    <div class='controls'>
+                        <div class="control-group">
+                            <label for="imageUpload">📁 Choose Image File:</label>
+                            <input type='file' id='imageUpload' accept='image/*' onchange='loadImage(event)'>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label for="topText">⬆️ Top Text:</label>
+                            <input type='text' id='topText' placeholder='✨ Enter Top Text' oninput='updateMeme()'>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label for="bottomText">⬇️ Bottom Text:</label>
+                            <input type='text' id='bottomText' placeholder='✨ Enter Bottom Text' oninput='updateMeme()'>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label for='fontSize'>⚡ Font Size:</label>
+                            <input type='range' id='fontSize' min='10' max='100' value='30' oninput='updateMeme()'>
+                        </div>
+                        
+                        <div class="control-group">
+                            <label>🎨 Text Color:</label>
+                            <div class="radio-container">
+                                <div>
+                                    <input type='radio' id='defaultColor' name='textColor' value='default' checked>
+                                    <label for='defaultColor'><b>🤍 WHITE WITH BLACK BORDER</b></label>
+                                </div>
+                                <div>
+                                    <input type='radio' id='highlightColor' name='textColor' value='#f5cb5c'>
+                                    <label for='highlightColor' style="color: #f5cb5c;"><b>💛 MUSTARD YELLOW WITH BLACK BORDER</b></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="downloadButton">📥 DOWNLOAD MEME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Share Section - Now at Bottom -->
+        <div class="social-section">
+            <h2 style="font-family: 'Orbitron', monospace; color: var(--neon-pink); font-size: 1.8rem; margin-bottom: 15px;">
+                🌟 SHARING IS CARING!
+            </h2>
+            <p style="font-family: 'Rajdhani', sans-serif; font-size: 1.2rem; margin-bottom: 25px;">
+                Help us spread the word about <a href="https://memenoise.netlify.app" target="_blank" rel="noopener" style="color: var(--neon-cyan); text-decoration: none;">memenoise.netlify.app</a> <span class="loading-wave">📢</span><span class="loading-wave">🤝</span>
+            </p>
+            
+            <!-- Stats Banner -->
+            <div style="background: var(--accent-gradient); padding: 15px; border-radius: 20px; margin: 20px 0; animation: pulse 2s infinite;">
+                <p style="font-family: 'Orbitron', monospace; font-size: 1.1rem; font-weight: 600; color: white;">
+                    🔥 <span id="meme-counter">47,892</span>+ memes created | ⚡ Join the viral revolution!
+                </p>
+            </div>
+            
+            <div class="social-share">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://memenoise.netlify.app" target="_blank" rel="noopener" title="Share on Facebook">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Share on Facebook" />
+                </a>
+                
+                <!-- Twitter/X -->
+                <a href="https://x.com/intent/tweet?url=https://memenoise.netlify.app&text=Create%20viral%20memes%20in%20seconds%20with%20this%20awesome%20tool!%20%F0%9F%94%A5" target="_blank" rel="noopener" title="Share on X (Twitter)">
+                    <img src="https://sweetwaternow.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2024/01/Depositphotos_676194222_XL-scaled.jpg" alt="Share on X" />
+                </a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://memenoise.netlify.app&title=MemeNoise%20-%20Free%20Meme%20Generator&summary=Create%20viral%20memes%20in%20seconds%20with%20this%20professional%20tool!" target="_blank" rel="noopener" title="Share on LinkedIn">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Share on LinkedIn" />
+                </a>
+                
+                <!-- WhatsApp -->
+                <a href="https://wa.me/?text=Check%20out%20this%20awesome%20meme%20generator!%20%F0%9F%94%A5%20https://memenoise.netlify.app" target="_blank" rel="noopener" title="Share on WhatsApp">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Share on WhatsApp" style="background: #25d366; border-radius: 50%; padding: 8px;" />
+                </a>
+                
+                <!-- Reddit -->
+                <a href="https://www.reddit.com/submit?url=https://memenoise.netlify.app&title=Free%20Meme%20Generator%20-%20Create%20Viral%20Memes%20in%20Seconds!" target="_blank" rel="noopener" title="Share on Reddit">
+                    <img src="https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png" alt="Share on Reddit" style="background: #ff4500; border-radius: 50%; padding: 5px;" />
+                </a>
+                
+                <!-- Telegram -->
+                <a href="https://t.me/share/url?url=https://memenoise.netlify.app&text=Create%20viral%20memes%20with%20this%20free%20tool!%20%F0%9F%9A%80" target="_blank" rel="noopener" title="Share on Telegram">
+                    <img src="https://telegram.org/img/t_logo.png" alt="Share on Telegram" style="background: #0088cc; border-radius: 50%; padding: 5px;" />
+                </a>
+            </div>
+            
+            <div style="margin: 40px 0;">
+                <p style="font-family: 'Orbitron', monospace; font-size: 1.2rem; font-weight: 600; text-align: center;">
+                    <span class="blinking highlight">
+                        <a href="https://meme2earn.com/?ref=681774075c7b3fc0bc4cfb61" target="_blank" rel="noopener">
+                            🚀 Get Paid for Your Memes! 🤑 Join Meme2Earn Now!
+                        </a>
+                    </span>
+                </p>
+            </div>
+
+            <!-- Banner -->
+            <div style="margin: 40px 0; text-align: center;">
+                <a href="https://lllpg.com/3moneysites/memenoise" target="_blank">
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3V2NHFlamZibjNjZ3cza3FlenV2ZHJoZTlyOXUyMHZseTkwZHI2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xc7o7kHb4nRLIq9TQS/giphy.gif" alt="Meme Creator Banner" style="max-width: 100%; border-radius: 20px; filter: brightness(1.1) contrast(1.1);">
+                </a>
+            </div>
+        </div>
+        
+        <script data-cfasync="false">ll_r="expert";ll_bc="#ffffff";ll_hc="#e22121";ll_tc="#555a69";ll_cc="#8d9aa6";ll_dc="#8891a8";ll_w="";ll_nf="0";ll_nc="1";ll_nh="0";ll_nm="0";ll_np="1";ll_pa="0";ll_nt="0";ll_wt="1";ll_fw="1";ll_n="4";ll_cl="";ll_s="w";</script>
+        <script data-cfasync="false" src="https://w.leadsleap.com/js.js"></script>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://memenoise.netlify.app">🏠 Home</a> |
+            <a href="https://memenoise.netlify.app/about.html">👋 About Us</a> |
+            <a href="https://memenoise.netlify.app/contact.html" target="_blank" rel="noopener">📧 Contact</a> |
+            <a href="https://memenoise.netlify.app/privacy.html">🔒 Privacy Policy</a> |
+            <a href="https://memenoise.netlify.app/terms.html">📜 Terms of Service</a> |
+            <a href="https://memenoise.netlify.app/content/">📚 Content</a>
+        </p>
+        <p style="font-family: 'Exo 2', sans-serif; margin: 20px 0;">
+            © <strong id="year"></strong> MEMENOISE. Follow us on 
+            <a href="https://facebook.com/joinmemenoise" target="_blank" rel="noopener" style="color: var(--neon-cyan);">Facebook</a>
+        </p>
+        <div style="display: flex; justify-content: center; margin-top: 30px;">
+            <p style="max-width: 800px; text-align: center; font-size: 0.9rem; color: rgba(255, 255, 255, 0.5); font-family: 'Exo 2', sans-serif; line-height: 1.5;">
+                <strong style="color: var(--neon-pink);">⚠️ Disclaimer:</strong> While we strive to provide a fun and enjoyable experience, please be mindful of copyright laws and ethical considerations when creating and sharing memes. We do not claim ownership of any uploaded images or text. By using our website, you agree to use it responsibly and ethically.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").innerText = new Date().getFullYear();
+        
+        // Animated counter for social proof
+        function animateCounter() {
+            const counter = document.getElementById('meme-counter');
+            const target = 47892;
+            const increment = Math.floor(Math.random() * 10) + 1;
+            const current = parseInt(counter.textContent.replace(/,/g, ''));
+            const newCount = current + increment;
+            counter.textContent = newCount.toLocaleString();
+        }
+        
+        // Update counter every 10 seconds
+        setInterval(animateCounter, 10000);
+        
+        // Add visitor count based on time
+        const baseCount = 47892;
+        const visitorsToday = Math.floor((Date.now() - new Date().setHours(0,0,0,0)) / 1000 / 10);
+        document.getElementById('meme-counter').textContent = (baseCount + visitorsToday).toLocaleString();
+    </script>
+
+    <script>
+        // JavaScript code (keeping all original functionality intact)
+        const canvas = document.getElementById('memeCanvas');
+        const context = canvas.getContext('2d');
+        let uploadedImage = null;
+
+        const defaultImage = new Image();
+        defaultImage.src = "https://imgallery.llsvr.com/expert.67c3112d59c83.jpg";
+        defaultImage.onload = function () {
+            drawImage(defaultImage);
+        };
+
+        function drawImage(img) {
+            canvas.width = img.width;
+            canvas.height = img.height;
+
+            context.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+
+        function loadImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                const img = new Image();
+                img.onload = function () {
+                    uploadedImage = img;
+
+                    drawImage(img);
+                    updateMeme(); // Update meme after loading image
+                };
+                img.src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        function setImage(src) {
+            // Create a proxy to handle CORS issues
+            const img = new Image();
+            img.crossOrigin = 'anonymous'; // Enable CORS
+            
+            img.onload = function () {
+                // Convert external image to canvas to avoid CORS issues
+                const tempCanvas = document.createElement('canvas');
+                const tempContext = tempCanvas.getContext('2d');
+                
+                tempCanvas.width = img.width;
+                tempCanvas.height = img.height;
+                
+                tempContext.drawImage(img, 0, 0);
+                
+                // Create a new image from the canvas data (now same-origin)
+                const corsFixedImg = new Image();
+                corsFixedImg.onload = function() {
+                    uploadedImage = corsFixedImg;
+                    drawImage(corsFixedImg);
+                    updateMeme();
+                };
+                
+                try {
+                    corsFixedImg.src = tempCanvas.toDataURL('image/jpeg', 0.9);
+                } catch (e) {
+                    console.log('CORS issue detected, falling back to download method');
+                    // If CORS fails, show download instruction
+                    alert('⚠️ For best results, please:\n\n1. Right-click the image and "Save image as..."\n2. Then use the "Choose File" button to upload it\n\nThis ensures your meme can be downloaded properly! 📥');
+                    return;
+                }
+            };
+            
+            img.onerror = function() {
+                console.log('Image failed to load, showing download instruction');
+                alert('⚠️ For best results, please:\n\n1. Right-click the image and "Save image as..."\n2. Then use the "Choose File" button to upload it\n\nThis ensures your meme can be downloaded properly! 📥');
+            };
+            
+            img.src = src;
+        }
+
+        function wrapText(context, text, x, y, maxWidth, lineHeight) {
+            const words = text.split(' ');
+            let line = '';
+            let lines = [];
+            
+            for (let n = 0; n < words.length; n++) {
+                let testLine = line + words[n] + ' ';
+                let metrics = context.measureText(testLine);
+                
+                if (metrics.width > maxWidth && n > 0) {
+                    lines.push({ text: line.trim(), y });
+                    line = words[n] + ' ';
+                    y += lineHeight;
+                } else { line = testLine; }
+            }
+
+            lines.push({ text: line.trim(), y });
+
+            for (let i = 0; i < lines.length; i++) {
+                // Use stroke for a thin, clear border, and add subtle shadow for depth
+                context.strokeStyle = 'black';
+                context.lineWidth = 2; // Thin outline for a clear, sharp border, matching imgflip's style
+                context.strokeText(lines[i].text, x, lines[i].y);
+                context.fillStyle = (context.fillStyle === 'white' || context.fillStyle === '#f5cb5c') ? context.fillStyle : 'white';
+                context.fillText(lines[i].text, x, lines[i].y);
+
+                // Subtle shadow for depth, without offset to avoid overlap, and minimal blur
+                context.shadowBlur = 11; // Minimal blur for a sharp, subtle shadow
+                context.shadowColor = 'black';
+            }
+        }
+
+        function updateMeme() {
+            const topText = document.getElementById('topText').value.toUpperCase();
+            const bottomText = document.getElementById('bottomText').value.toUpperCase();
+
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(uploadedImage || defaultImage, 0, 0, canvas.width, canvas.height);
+
+            const fontSize = document.getElementById('fontSize').value;
+
+            // Lock to Impact font for rendering, ensuring consistency across devices with optimized @font-face, Google Fonts, and JavaScript fallback
+            context.font = `bold ${fontSize}px 'Impact', 'Impact', sans-serif`; // Use local Impact, Google Fonts Impact, then fallback to sans-serif
+
+            // Add letter-spacing for better spacing between characters
+            context.letterSpacing = '1px'; // Add slight spacing between letters
+
+            // Check if Impact font is loaded, and use JavaScript fallback if not
+            try {
+                if (!document.fonts.check(`bold ${fontSize}px Impact`)) {
+                    context.font = `bold ${fontSize}px 'Impact', sans-serif`; // Fallback to Google Fonts or system sans-serif
+                    console.warn('Impact font not loaded, using fallback.');
+                }
+            } catch (e) {
+                console.error('Font loading error:', e);
+                context.font = `bold ${fontSize}px sans-serif`; // Last resort fallback
+            }
+
+            // Check the selected text color option
+            const textColorOption = document.querySelector('input[name="textColor"]:checked').value;
+
+            if (textColorOption === "default") {
+                context.fillStyle = 'white';
+            } else {
+                context.fillStyle = '#f5cb5c';
+            }
+
+            // Use stroke for a thin border and subtle shadow for depth
+            context.strokeStyle = 'black';
+            context.lineWidth = 2; // Thin outline for a clear, sharp border, matching imgflip's style
+            context.textAlign = 'center';
+
+            // Subtle shadow for depth, without offset to avoid overlap, and minimal blur
+            context.shadowBlur = 11; // Minimal blur for a sharp, subtle shadow
+            context.shadowColor = 'black';
+
+            const maxWidth = canvas.width - (20); // Adjust max width for mobile
+            const lineHeight = fontSize * (1.3); // Increased line height for better spacing between lines
+
+            // Equal margins for top and bottom text, adjusted for mobile
+            const topMargin = parseInt(fontSize) + (15); // Reduced margin for mobile
+            const bottomMargin = (30); // Reduced margin for mobile
+
+            wrapText(context, topText, canvas.width / 2, topMargin, maxWidth, lineHeight);
+            wrapText(context, bottomText, canvas.width / 2, canvas.height - bottomMargin, maxWidth, lineHeight);
+        }
+
+        function downloadMeme() {
+            drawImage(uploadedImage || defaultImage);
+            updateMeme();
+            const watermarkText = 'tinyurl.com/memenoise';
+            context.font = 'bold ' + Math.max(12 * window.devicePixelRatio, 16) + 'px Tahoma'; // Responsive watermark size
+            context.fillStyle = 'rgba(255,255,255,.7)';
+            context.textAlign = 'right';
+            const marginX = Math.max(10 * window.devicePixelRatio, 20);
+            const marginY = Math.max(5 * window.devicePixelRatio, 10);
+            context.fillText(watermarkText, canvas.width - marginX, canvas.height - marginY);
+            
+            const link = document.createElement('a');
+            link.download = 'memenoise.jpg'; // Change file extension to .jpg
+            link.href = canvas.toDataURL('image/jpeg'); // Change format to JPEG
+            link.click();
+        }
+
+        // Event listener for download button
+        document.getElementById('downloadButton').addEventListener('click', downloadMeme);
+
+        // Quick template loader
+        function loadQuickTemplate(template) {
+            const templates = {
+                'spongebob': {
+                    image: 'https://supermeme-space-prd.ams3.cdn.digitaloceanspaces.com/templates/Spongebob-Waiting.png',
+                    topText: 'WAITING FOR',
+                    bottomText: 'THE WEEKEND'
+                },
+                'distracted': {
+                    image: 'https://i.imgflip.com/1ur9b0.jpg',
+                    topText: 'MY RESPONSIBILITIES',
+                    bottomText: 'MAKING MEMES'
+                },
+                'stonks': {
+                    image: 'https://i.imgur.com/vWZtzpy.png',
+                    topText: '',
+                    bottomText: 'STONKS'
+                },
+                'this-is-fine': {
+                    image: 'https://i.imgflip.com/26am.jpg',
+                    topText: 'EVERYTHING IS BROKEN',
+                    bottomText: 'THIS IS FINE'
+                }
+            };
+            
+            const selectedTemplate = templates[template];
+            if (selectedTemplate) {
+                try {
+                    // Load the template image
+                    setImage(selectedTemplate.image);
+                    
+                    // Set the text
+                    document.getElementById('topText').value = selectedTemplate.topText;
+                    document.getElementById('bottomText').value = selectedTemplate.bottomText;
+                    
+                    // Update the meme
+                    setTimeout(() => {
+                        updateMeme();
+                    }, 500);
+                    
+                    // Show success message
+                    showNotification(`🎉 ${template.charAt(0).toUpperCase() + template.slice(1)} template loaded!`);
+                } catch (error) {
+                    console.error('Template loading error:', error);
+                    showNotification(`⚠️ Template loading failed. Try downloading the image first!`);
+                }
+            }
+        }
+        
+        // Simple notification system
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--accent-gradient);
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                font-family: 'Exo 2', sans-serif;
+                font-weight: 600;
+                z-index: 1000;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+                animation: slideIn 0.3s ease;
+            `;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+        
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            // Ctrl+D or Cmd+D to download
+            if ((e.ctrlKey || e.metaKey) && e.key === 'd') {
+                e.preventDefault();
+                downloadMeme();
+                showNotification('🎉 Meme downloaded!');
+            }
+            
+            // Ctrl+R or Cmd+R to reset (prevent page refresh)
+            if ((e.ctrlKey || e.metaKey) && e.key === 'r') {
+                e.preventDefault();
+                document.getElementById('topText').value = '';
+                document.getElementById('bottomText').value = '';
+                updateMeme();
+                showNotification('🔄 Text cleared!');
+            }
+        });
+        
+        // Add CSS animations for notifications
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        function searchImages(source) {
+            const searchTerm = document.getElementById('search-bar').value;
+            const resultsContainer = document.getElementById('image-results');
+            resultsContainer.innerHTML = '<p style="color: var(--neon-cyan); text-align: center; font-family: \'Exo 2\', sans-serif;">🔍 Searching...</p>';
+
+            if (source === 'pixabay') {
+                fetch(`https://pixabay.com/api/?key=47185871-47aaa2acdf52556501ba373d6&q=${searchTerm}&per_page=5`)
+                    .then(response => response.json())
+                    .then(data => {
+                        resultsContainer.innerHTML = '';
+                        if (data.hits.length === 0) {
+                            resultsContainer.innerHTML = '<p style="color: var(--neon-pink); text-align: center;">No images found. Try a different search term!</p>';
+                            return;
+                        }
+                        
+                        const gridContainer = document.createElement('div');
+                        gridContainer.style.display = 'grid';
+                        gridContainer.style.gridTemplateColumns = 'repeat(auto-fill, minmax(120px, 1fr))';
+                        gridContainer.style.gap = '15px';
+                        gridContainer.style.marginTop = '20px';
+                        
+                        data.hits.forEach(image => {
+                            const imgContainer = document.createElement('div');
+                            imgContainer.style.position = 'relative';
+                            imgContainer.style.borderRadius = '15px';
+                            imgContainer.style.overflow = 'hidden';
+                            imgContainer.style.cursor = 'pointer';
+                            imgContainer.style.transition = 'all 0.3s ease';
+                            
+                            const imgElement = document.createElement('img');
+                            imgElement.src = image.webformatURL;
+                            imgElement.style.width = '100%';
+                            imgElement.style.height = '120px';
+                            imgElement.style.objectFit = 'cover';
+                            imgElement.style.borderRadius = '15px';
+                            imgElement.style.filter = 'grayscale(0.3)';
+                            imgElement.style.transition = 'all 0.3s ease';
+                            
+                            const overlay = document.createElement('div');
+                            overlay.innerHTML = '📥 Click to Use';
+                            overlay.style.position = 'absolute';
+                            overlay.style.top = '0';
+                            overlay.style.left = '0';
+                            overlay.style.right = '0';
+                            overlay.style.bottom = '0';
+                            overlay.style.background = 'rgba(0, 255, 255, 0.9)';
+                            overlay.style.color = 'black';
+                            overlay.style.display = 'flex';
+                            overlay.style.alignItems = 'center';
+                            overlay.style.justifyContent = 'center';
+                            overlay.style.fontWeight = 'bold';
+                            overlay.style.opacity = '0';
+                            overlay.style.transition = 'all 0.3s ease';
+                            
+                            imgContainer.onmouseover = () => {
+                                imgElement.style.transform = 'scale(1.1)';
+                                imgElement.style.filter = 'grayscale(0) brightness(1.2)';
+                                overlay.style.opacity = '1';
+                            };
+                            
+                            imgContainer.onmouseout = () => {
+                                imgElement.style.transform = 'scale(1)';
+                                imgElement.style.filter = 'grayscale(0.3)';
+                                overlay.style.opacity = '0';
+                            };
+                            
+                            imgContainer.onclick = () => setImage(image.webformatURL);
+                            
+                            imgContainer.appendChild(imgElement);
+                            imgContainer.appendChild(overlay);
+                            gridContainer.appendChild(imgContainer);
+                        });
+                        
+                        resultsContainer.appendChild(gridContainer);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        resultsContainer.innerHTML = '<p style="color: var(--neon-pink); text-align: center;">Sorry, we couldn\'t load images from Pixabay. Please try again later.</p>';
+                    });
+            } else if (source === 'pexels') {
+                const pexelsApiKey = 'bcQsrTvw4h78HJkJHyG0W15cLfvPyhWtxJuiY5IWkb6CEiAqTnrvJU31';
+                fetch(`https://api.pexels.com/v1/search?query=${searchTerm}&per_page=5`, {
+                    headers: {
+                        Authorization: pexelsApiKey
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        resultsContainer.innerHTML = '';
+                        if (data.photos.length === 0) {
+                            resultsContainer.innerHTML = '<p style="color: var(--neon-pink); text-align: center;">No images found. Try a different search term!</p>';
+                            return;
+                        }
+                        
+                        const gridContainer = document.createElement('div');
+                        gridContainer.style.display = 'grid';
+                        gridContainer.style.gridTemplateColumns = 'repeat(auto-fill, minmax(120px, 1fr))';
+                        gridContainer.style.gap = '15px';
+                        gridContainer.style.marginTop = '20px';
+                        
+                        data.photos.forEach(photo => {
+                            const imgContainer = document.createElement('div');
+                            imgContainer.style.position = 'relative';
+                            imgContainer.style.borderRadius = '15px';
+                            imgContainer.style.overflow = 'hidden';
+                            imgContainer.style.cursor = 'pointer';
+                            imgContainer.style.transition = 'all 0.3s ease';
+                            
+                            const imgElement = document.createElement('img');
+                            imgElement.src = photo.src.medium;
+                            imgElement.style.width = '100%';
+                            imgElement.style.height = '120px';
+                            imgElement.style.objectFit = 'cover';
+                            imgElement.style.borderRadius = '15px';
+                            imgElement.style.filter = 'grayscale(0.3)';
+                            imgElement.style.transition = 'all 0.3s ease';
+                            
+                            const overlay = document.createElement('div');
+                            overlay.innerHTML = '📥 Click to Use';
+                            overlay.style.position = 'absolute';
+                            overlay.style.top = '0';
+                            overlay.style.left = '0';
+                            overlay.style.right = '0';
+                            overlay.style.bottom = '0';
+                            overlay.style.background = 'rgba(0, 255, 255, 0.9)';
+                            overlay.style.color = 'black';
+                            overlay.style.display = 'flex';
+                            overlay.style.alignItems = 'center';
+                            overlay.style.justifyContent = 'center';
+                            overlay.style.fontWeight = 'bold';
+                            overlay.style.opacity = '0';
+                            overlay.style.transition = 'all 0.3s ease';
+                            
+                            imgContainer.onmouseover = () => {
+                                imgElement.style.transform = 'scale(1.1)';
+                                imgElement.style.filter = 'grayscale(0) brightness(1.2)';
+                                overlay.style.opacity = '1';
+                            };
+                            
+                            imgContainer.onmouseout = () => {
+                                imgElement.style.transform = 'scale(1)';
+                                imgElement.style.filter = 'grayscale(0.3)';
+                                overlay.style.opacity = '0';
+                            };
+                            
+                            imgContainer.onclick = () => setImage(photo.src.medium);
+                            
+                            imgContainer.appendChild(imgElement);
+                            imgContainer.appendChild(overlay);
+                            gridContainer.appendChild(imgContainer);
+                        });
+                        
+                        resultsContainer.appendChild(gridContainer);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        resultsContainer.innerHTML = '<p style="color: var(--neon-pink); text-align: center;">Sorry, we couldn\'t load images from Pexels. Please try again later.</p>';
+                    });
+            }
+        }
+    </script>
+
+</body>
+</html>
